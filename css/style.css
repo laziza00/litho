@@ -185,6 +185,7 @@ body {
   background-color: #cee002;
   z-index: 60;
   animation: hero-anim 3s ;
+  z-index: 1;
 }
 .hero__show {
   position: absolute;
@@ -195,8 +196,10 @@ body {
   background: var(--text-color);
   z-index: 60;
   animation: hero-anim 3s ;
+  z-index:1;
 
 }
+
 
 
 @keyframes hero-anim {
@@ -815,6 +818,7 @@ body {
   z-index: 10;
   background-color: var(--main-color);
   opacity: 0;
+  z-index: 1000;
 }
 .modalbox__content {
   position: relative;
